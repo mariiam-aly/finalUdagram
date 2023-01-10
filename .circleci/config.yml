@@ -35,7 +35,7 @@ jobs:
       - run:
           name: EB config
           command: | 
-            npm run api:eb
+            npm run api:init
      # Build the backend API      
       - run:
           name: API Build
