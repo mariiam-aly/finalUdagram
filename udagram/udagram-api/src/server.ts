@@ -25,9 +25,9 @@ import { V0_FEED_MODELS, V0_USER_MODELS } from "./controllers/v0/model.index";
   console.log("Database Connected");
 
   const app = express();
-  const port = 8080;
+  const port = process.env.PORT || 8080;
 
-  app.use(bodyParser.json());
+  app.use(cors());
 
   // app.use(cors());
   // We set the CORS origin to * so that we don't need to
