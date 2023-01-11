@@ -1,10 +1,15 @@
-### Database: Using AWS REDS for hosting
-### Backend: Using AWS Elastic Beanstalk for hosting
-### Pipelines: Using CircleCI
+#Infrastructure
 
-1. Install dependencies
-1. Build project
-1. Create RDS database
-1. Create S3 Bucket
-1. Create EB enviroment
-1. Connect CircleCI to github
+##Database
+This project uses AWS RDS service to run a Postgres database that is connected to our project API
+
+##Backend
+This project uses AWS Elastic Beanstalk service to host our server
+
+##Frontend /Backend
+This project uses AWS S3 bucket service to host our static website.
+
+##Pipelining
+This project uses Circleci connected with my GitHub for faster deployment
+ 
+
